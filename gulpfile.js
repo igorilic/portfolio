@@ -565,7 +565,7 @@ function startTests(singleRun, done) {
     var child;
     var excludeFiles = [];
     var fork = require('child_process').fork;
-    var karma = require('karma').server;
+    var Server = require('karma').Server;
     var serverSpecs = config.serverIntegrationSpecs;
 
     if (args.startServers) {
@@ -580,11 +580,12 @@ function startTests(singleRun, done) {
         }
     }
 
-    karma.start({
+    var karma = new Server({
         configFile: __dirname + '/karma.conf.js',
         exclude: excludeFiles,
         singleRun: !!singleRun
     }, karmaCompleted);
+    karma.start();
 
     ////////////////
 
