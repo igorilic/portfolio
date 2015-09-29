@@ -1,6 +1,6 @@
 <div ng-controller="ShellController as vm">
-    <header class="clearfix">
-        <a ui-sref="dashboard" class="logo"><img id="logo" src="../images/logo.png" width="390px"></a>
+    <header>
+        <a ui-sref="home"><img id="logo" src="../images/logo.png" width="130px"></a>
         <ht-top-nav navline="vm.navline"></ht-top-nav>
     </header>
     <section id="content" class="content">
@@ -17,4 +17,10 @@
             <div class="page-spinner-message overlay-message">{{vm.busyMessage}}</div>
         </div>
     </section>
+    <footer>
+        <div class="container-fluid">
+            <p>&copy; 2015</p>
+            <span><a class="twitter"><i class="fa fa-twitter"></i> @igordilic</a></span>
+        </div>
+    </footer>
 </div>
