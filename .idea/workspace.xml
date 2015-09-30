@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecee3ac-410e-42ac-8024-365d7419ca2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/home/home.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/home/home.controller.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/home/home.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/home/home.route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/styles/mixins.less" />
-      <change type="DELETED" beforePath="D:\apps\portfolio\src\client\app\session\session.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\apps\portfolio\src\client\app\session\session.controller.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\apps\portfolio\src\client\app\session\session.module.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\apps\portfolio\src\client\styles\styles.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/app/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/admin/admin.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/admin/admin.controller.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.controller.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/admin/admin.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/admin/admin.module.js.html" />
@@ -19,7 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.route.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/app.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/app.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/app.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/app.module.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/app.module.js" afterPath="$PROJECT_DIR$/src/client/app/app.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/config.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/config.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/config.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/config.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/constants.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/constants.js.html" />
@@ -30,26 +21,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/core.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/core.route.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.controller.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.controller.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/dashboard.route.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/data.js" afterPath="$PROJECT_DIR$/src/server/data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/dataservice.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/dataservice.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/dataservice.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/dataservice.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/core/dataservice.js" afterPath="$PROJECT_DIR$/src/client/app/core/dataservice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception-handler.provider.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception-handler.provider.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception-handler.provider.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception-handler.provider.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/exception/exception.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/home/home.controller.js" afterPath="$PROJECT_DIR$/src/client/app/home/home.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/home/home.controller.spec.js" afterPath="$PROJECT_DIR$/src/client/app/home/home.controller.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/home.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.route.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/home.route.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/ht-img-person.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/ht-img-person.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-img-person.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-img-person.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/ht-sidebar.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/ht-sidebar.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-sidebar.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-sidebar.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/ht-top-nav.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/ht-top-nav.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-top-nav.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-top-nav.directive.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" afterPath="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/ht-widget-header.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/ht-widget-header.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-widget-header.directive.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-widget-header.directive.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/index.html" />
@@ -60,6 +60,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/core/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/index.html" />
@@ -70,6 +71,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/core/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/index.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
@@ -80,20 +82,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/logger/logger.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/logger/logger.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/test-helpers/mock-data.js" afterPath="$PROJECT_DIR$/src/client/test-helpers/mock-data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/router-helper.provider.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/router-helper.provider.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router-helper.provider.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router-helper.provider.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/router.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/blocks/router/router.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/routes.js" afterPath="$PROJECT_DIR$/src/server/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/shell.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/shell.controller.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/shell.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/shell.controller.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/layout/shell.html" afterPath="$PROJECT_DIR$/src/client/app/layout/shell.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/sidebar.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/layout/sidebar.controller.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/sidebar.controller.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/layout/sidebar.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/styles/styles.css" afterPath="$PROJECT_DIR$/src/client/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/styles/styles.less" afterPath="$PROJECT_DIR$/src/client/styles/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/tsd.d.ts" afterPath="$PROJECT_DIR$/typings/tsd.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsd.json" afterPath="$PROJECT_DIR$/tsd.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/widgets.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-html/src/client/app/widgets/widgets.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/widgets.module.js.html" afterPath="$PROJECT_DIR$/report/coverage/report-lcov/lcov-report/src/client/app/widgets/widgets.module.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\apps\portfolio\src\client\styles\styles.less" afterPath="$PROJECT_DIR$/src/client/styles/styles.less.bak" />
+      <change type="MOVED" beforePath="D:\apps\portfolio\src\client\app\dashboard\dashboard.controller.spec.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.exspec.js.old" />
+      <change type="MOVED" beforePath="D:\apps\portfolio\src\client\app\dashboard\dashboard.route.spec.js" afterPath="$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.exspec.js.old" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,41 +121,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/home/home.module.js">
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/data.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="16" column="84" selection-start-line="14" selection-start-column="7" selection-end-line="16" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.module.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/app.module.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -164,21 +161,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.route.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.spec.js">
+      <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/core/dataservice.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.controller.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.controller.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58921933">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -186,11 +183,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.56771797">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/app/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.846154">
+              <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -206,24 +223,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.controller.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Angular Controller PAPA" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -237,16 +243,21 @@
         <option value="$PROJECT_DIR$/src/client/styles/style.less" />
         <option value="$PROJECT_DIR$/src/client/app/layout/ht-top-nav.html" />
         <option value="$PROJECT_DIR$/bower_components/font-awesome/bower.json" />
-        <option value="$PROJECT_DIR$/src/client/index.html" />
         <option value="$PROJECT_DIR$/src/client/styles/mixins.less" />
-        <option value="$PROJECT_DIR$/src/client/styles/styles.less" />
         <option value="$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/src/client/app/layout/shell.html" />
         <option value="$PROJECT_DIR$/src/client/app/home/home.module.js" />
         <option value="$PROJECT_DIR$/src/client/app/app.module.js" />
         <option value="$PROJECT_DIR$/src/client/app/home/home.route.js" />
-        <option value="$PROJECT_DIR$/src/client/app/home/home.controller.js" />
+        <option value="$PROJECT_DIR$/src/client/index.html" />
+        <option value="$PROJECT_DIR$/src/server/routes.js" />
+        <option value="$PROJECT_DIR$/src/server/data.js" />
+        <option value="$PROJECT_DIR$/src/client/app/core/dataservice.js" />
+        <option value="$PROJECT_DIR$/src/client/test-helpers/mock-data.js" />
         <option value="$PROJECT_DIR$/src/client/app/home/home.controller.spec.js" />
+        <option value="$PROJECT_DIR$/src/client/app/home/home.html" />
+        <option value="$PROJECT_DIR$/src/client/styles/styles.less" />
+        <option value="$PROJECT_DIR$/src/client/app/home/home.controller.js" />
       </list>
     </option>
   </component>
@@ -438,8 +449,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -471,6 +480,32 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -487,6 +522,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,44 +617,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.codinjutsu.tools.mongo.view.MongoConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.accepted" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -657,20 +691,30 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1716418" sideWeight="0.5141343" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1716418" sideWeight="0.4858657" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33296943" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3881081" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38702703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32540542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1716418" sideWeight="0.3968254" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1716418" sideWeight="0.6031746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -678,7 +722,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -698,6 +741,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/client/app/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.exspec.js.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.exspec.js.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -710,9 +819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,19 +857,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
@@ -789,24 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/layout/ht-top-nav.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -827,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,15 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,19 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.230769">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
           <caret line="22" column="88" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,15 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.route.exspec.js.old">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
@@ -943,13 +998,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.controller.exspec.js.old">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/core/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.27579737">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/utils/404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/core/core.route.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/widgets/ht-img-person.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,21 +1066,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.js">
+    <entry file="file://$PROJECT_DIR$/src/server/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/core/dataservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="84" selection-start-line="14" selection-start-column="7" selection-end-line="16" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/test-helpers/mock-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58921933">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/styles/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.846154">
+          <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/app/home/home.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56771797">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

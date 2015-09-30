@@ -4,3 +4,5 @@
 /// <reference path="node/node.d.ts" />
 /// <reference path="serve-static/serve-static.d.ts" />
 /// <reference path="angularjs/angular.d.ts" />
+/// <reference path="angular-ui-router/angular-ui-router.d.ts" />
+/// <reference path="mocha/mocha.d.ts" />

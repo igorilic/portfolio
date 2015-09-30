@@ -1,6 +1,7 @@
 /* jshint -W117, -W030 */
 describe('HomeController', function() {
     var controller;
+    var pics = mockData.getMockPics();
 
     beforeEach(function() {
         bard.appModule('app.home');
@@ -8,7 +9,7 @@ describe('HomeController', function() {
     });
 
     beforeEach(function () {
-        //sinon.stub(dataservice, 'getPeople').returns($q.when(people));
+        sinon.stub(dataservice, 'getPics').returns($q.when(pics));
         controller = $controller('HomeController');
         $rootScope.$apply();
     });
@@ -28,9 +29,12 @@ describe('HomeController', function() {
             it('should have logged "Activated"', function() {
                 expect($log.info.logs).to.match(/Activated/);
             });
-            //it('should have at least 1 image', function () {
-            //    expect(controller.people).to.have.length.above(0);
-            //});
+            it('should have at least 1 image', function () {
+                expect(controller.pics).to.have.length.above(0);
+            });
+            it('should have 3 pics', function() {
+                expect(controller.pics).to.have.length(3);
+            });
 
         });
     });

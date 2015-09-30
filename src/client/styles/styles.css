@@ -66,6 +66,25 @@ p {
   text-align: center;
   margin: 10px 0;
 }
+@media screen and (min-width: 750px) {
+  header #logo {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .nav {
+    min-height: 40px;
+    border_bottom: 1px solid #52b9e9;
+    text-align: center;
+  }
+  .nav ul {
+    display: inline-block;
+  }
+  .nav li {
+    float: left;
+    margin-left: 10px;
+  }
+}
+/* media query for sm and bigger 750px */
 /**
 * Header
 */
@@ -87,4 +106,36 @@ footer p {
 footer a {
   text-align: center;
   color: #000000;
+}
+/**
+* Overlay
+*/
+.outer-box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  overflow: hidden;
+  float: left;
+}
+.outer-box img {
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.25);
+}
+.outer-box .inner-box {
+  background: #52b9e9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  heigth: 100%;
+  opacity: 0;
+  padding: 0;
+  transition: opacity .5s ;
+}
+.outer-box:hover .inner-box {
+  opacity: .8;
+  transition: opacity .5s;
 }

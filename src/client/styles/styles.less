@@ -83,6 +83,34 @@ p {
     }
 }
 
+@media screen and (min-width: 750px) {
+
+    header {
+        #logo {
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .nav {
+
+        min-height: 40px;
+        border_bottom: 1px solid @color_lightblue;
+        text-align: center;
+
+        ul {
+            //max-width: 950px;
+            display: inline-block;
+
+        }
+
+        li {
+            float: left;
+            margin-left: 10px;
+        }
+    }
+} /* media query for sm and bigger 750px */
+
 /**
 * Header
 */
@@ -110,6 +138,45 @@ footer {
     a {
         text-align: center;
         color: darken(@color_grey, 50%);
+    }
+}
+
+/**
+* Overlay
+*/
+
+.outer-box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    float: left;
+
+    img {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        box-shadow: 0 5px 1px rgba(0,0,0,0.25);
+    }
+
+    .inner-box {
+        background: @color_lightblue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        heigth: 100%;
+        opacity: 0;
+        padding: 0;
+        transition: opacity .5s ;
+    }
+
+    &:hover {
+        .inner-box {
+            opacity: .8;
+            transition: opacity .5s;
+        }
     }
 }
 
