@@ -13,7 +13,7 @@ function getPics() {
         //{id: 7, firstName: 'Haley', lastName: 'Guthrie', age: 35, location: 'Wyoming'},
         //{id: 8, firstName: 'Aaron', lastName: 'Jinglehiemer', age: 22, location: 'Utah'}
         {id: 1, title: 'First Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
-        {id: 2, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
-        {id: 3, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/nightlife'}
+        {id: 2, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/cats'},
+        {id: 3, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'}
     ];
 }
