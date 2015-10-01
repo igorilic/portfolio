@@ -16,7 +16,7 @@ describe('HomeController', function() {
 
     bard.verifyNoOutstandingHttpRequests();
 
-    describe('Dashboard controller', function() {
+    describe('Home controller', function() {
         it('should be created successfully', function () {
             expect(controller).to.be.defined;
         });

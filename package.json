@@ -8,6 +8,10 @@
     "start": "node src/server/app.js",
     "test": "gulp test"
   },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.2.x"
+  },
   "dependencies": {
     "body-parser": "^1.8.2",
     "express": "^4.9.3",
