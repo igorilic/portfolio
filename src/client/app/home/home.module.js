@@ -5,6 +5,7 @@
         .module('app.home', [
             'app.core',
             // third party
-            'infinite-scroll'
+            'infinite-scroll',
+            'bootstrapLightbox'
         ]);
 })();

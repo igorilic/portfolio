@@ -7,13 +7,17 @@
         .controller(controllerId, HomeController);
 
     /* @ngInject */
-    function HomeController($q, dataservice, logger) {
+    function HomeController($q, dataservice, logger, Lightbox) {
         var vm = this;
 
         vm.activate = activate;
         vm.title = 'Home';
         vm.pics = [];
         vm.loadMore = loadMore;
+        vm.openLightboxModal = openLightboxModal;
+
+        var brojac = 0;
+        //vm.chunkedData = [];
 
         activate();
 
@@ -27,17 +31,38 @@
         function getPics() {
             return dataservice.getPics().then(function(data) {
                 vm.pics = data;
+                //vm.chunkedData = chunk(vm.pics, 3);
                 return vm.pics;
             });
         }
 
         function loadMore() {
-            var last = vm.pics[vm.pics.length - 1];
+            var brojSlika = vm.pics.length;
+            var last = vm.pics[brojSlika - 1];
             for (var i = 1; i <= 3; i++) {
-                vm.pics.push(last + i);
-                logger.info('Loaded pic' + last);
+                brojac++;
+                if (brojac < brojSlika) {
+                    vm.pics.push(last + i);
+                    logger.info('Loaded pic' + brojac);
+                }
             }
 
         }
+
+        function openLightboxModal(index) {
+            Lightbox.openModal(vm.pics, index);
+        }
+
+        /**
+         * chunk za bootstrap kolone
+         * @arr, @size
+         */
+        //function chunk(arr, size) {
+        //    var newArr = [];
+        //    for (var i = 0; i < arr.length; i += size) {
+        //        newArr.push(arr.slice(i, i + size));
+        //    }
+        //    return newArr;
+        //}
     }
 })();

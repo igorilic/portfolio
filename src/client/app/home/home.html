@@ -2,11 +2,15 @@
     <div class="row">
         <div infinite-scroll="vm.loadMore()" infinite-scroll-distance="1">
             <div class="outer-box" data-ng-repeat="pic in vm.pics track by $index">
-                <img ng-src="{{pic.src}}" alt=""/>
-                <div class="inner-box">
+                <a ng-click="vm.openLightboxModal($index)">
+                    <img ng-src="{{pic.thumbUrl}}" alt=""/>
+                    <div class="inner-box">
+                    </div>
+                </a>
+                <div>
+                    <h3 class="pic-title">{{ pic.title }}</h3>
+                    <p class="pic-caption">{{ pic.id }} {{ pic.caption }}</p>
                 </div>
-                <p class="text-center">{{ pic.id }} {{ pic.title }}</p>
-
             </div>
         </div>
     </div>
