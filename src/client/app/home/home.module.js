@@ -3,6 +3,8 @@
 
     angular
         .module('app.home', [
-            'app.core'
+            'app.core',
+            // third party
+            'infinite-scroll'
         ]);
 })();

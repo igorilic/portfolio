@@ -134,6 +134,6 @@ footer a {
   transition: opacity .5s ;
 }
 .outer-box:hover .inner-box {
-  opacity: .8;
+  opacity: .4;
   transition: opacity .5s;
 }

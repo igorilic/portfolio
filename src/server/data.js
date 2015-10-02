@@ -14,6 +14,18 @@ function getPics() {
         //{id: 8, firstName: 'Aaron', lastName: 'Jinglehiemer', age: 22, location: 'Utah'}
         {id: 1, title: 'First Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
         {id: 2, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/cats'},
-        {id: 3, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'}
+        {id: 3, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'},
+        {id: 4, title: 'First Pic!', src: 'https://lorempixel.com/300/400/cats'},
+        {id: 5, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
+        {id: 6, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'},
+        {id: 7, title: 'First Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
+        {id: 8, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/food'},
+        {id: 9, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/cats'},
+        {id: 10, title: 'First Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
+        {id: 11, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/cats'},
+        {id: 12, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'},
+        {id: 13, title: 'First Pic!', src: 'https://lorempixel.com/300/400/nightlife'},
+        {id: 14, title: 'Second Pic!', src: 'https://lorempixel.com/300/400/cats'},
+        {id: 15, title: 'Third Pic!', src: 'https://lorempixel.com/300/400/food'},
     ];
 }

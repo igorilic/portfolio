@@ -32,8 +32,8 @@ describe('HomeController', function() {
             it('should have at least 1 image', function () {
                 expect(controller.pics).to.have.length.above(0);
             });
-            it('should have 3 pics', function() {
-                expect(controller.pics).to.have.length(3);
+            it('should have 15 pics', function() {
+                expect(controller.pics).to.have.length(15);
             });
 
         });

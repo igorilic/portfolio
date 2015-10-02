@@ -13,6 +13,7 @@
         vm.activate = activate;
         vm.title = 'Home';
         vm.pics = [];
+        vm.loadMore = loadMore;
 
         activate();
 
@@ -28,6 +29,15 @@
                 vm.pics = data;
                 return vm.pics;
             });
+        }
+
+        function loadMore() {
+            var last = vm.pics[vm.pics.length - 1];
+            for (var i = 1; i <= 3; i++) {
+                vm.pics.push(last + i);
+                logger.info('Loaded pic' + last);
+            }
+
         }
     }
 })();

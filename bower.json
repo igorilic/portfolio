@@ -26,6 +26,7 @@
     "font-awesome": "^4.3.0",
     "jquery": "^2.1.4",
     "moment": "^2.10.3",
+    "ngInfiniteScroll": "~1.2.1",
     "roboto-fontface": "~0.4.3",
     "toastr": "^2.1.1"
   },
