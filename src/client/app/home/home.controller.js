@@ -37,13 +37,13 @@
         }
 
         function loadMore() {
-            var brojSlika = vm.pics.length;
+            var brojSlika = 3;
             var last = vm.pics[brojSlika - 1];
             for (var i = 1; i <= 3; i++) {
                 brojac++;
                 if (brojac < brojSlika) {
                     vm.pics.push(last + i);
-                    logger.info('Loaded pic' + brojac);
+                    logger.info('Loaded pic no. ' + brojac);
                 }
             }
 
