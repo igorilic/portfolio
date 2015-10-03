@@ -6,6 +6,12 @@
     <file url="file://$PROJECT_DIR$/bower_components/font-awesome/bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/procfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.controller.spec.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.routes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/about/about.routes.spec.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/app.module.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/core/dataservice.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" charset="UTF-8" />

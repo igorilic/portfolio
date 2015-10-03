@@ -66,6 +66,16 @@ p {
   text-align: center;
   margin: 10px 0;
 }
+@media screen and (max-width: 450px) {
+  .perspic-text {
+    margin-top: 10px !important;
+    text-align: justify !important;
+  }
+  .perspic-text p {
+    margin: 0 20px;
+  }
+}
+/* mobile screens */
 @media screen and (min-width: 750px) {
   header #logo {
     margin-top: 80px;
@@ -99,6 +109,9 @@ header img {
 /**
 * Footer
 */
+footer {
+  margin: 50px 20px;
+}
 footer p {
   text-align: center;
   color: #7a7a7a;
@@ -139,4 +152,23 @@ footer a {
   opacity: .4;
   -webkit-transition: opacity .5s;
           transition: opacity .5s;
+}
+.perspic {
+  margin-right: 5px;
+  border-right: 1px solid #52b9e9;
+  text-align: right;
+  width: 50%;
+}
+.perspic-text {
+  margin: 0 10px;
+  max-width: 450px;
+}
+.perspic-text .pasus {
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.perspic-text .pasus p {
+  margin: 0;
+  padding: 0;
 }

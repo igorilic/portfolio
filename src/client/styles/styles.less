@@ -82,7 +82,15 @@ p {
         margin: 10px 0;
     }
 }
-
+@media screen and (max-width: 450px){
+    .perspic-text {
+        margin-top: 10px !important;
+        text-align: justify !important;
+        p {
+            margin: 0 20px;
+        }
+    }
+} /* mobile screens */
 @media screen and (min-width: 750px) {
 
     header {
@@ -130,6 +138,8 @@ header {
 * Footer
 */
 footer {
+
+    margin: 50px 20px;
 
     p {
         text-align: center;
@@ -181,6 +191,35 @@ footer {
 
             }
 
+    }
+}
+
+// About
+
+.perspic {
+    margin-right: 5px;
+    border-right: 1px solid @color_lightblue;
+    text-align: right;
+    width: 50%;
+
+    img {
+
+    }
+}
+
+.perspic-text {
+    margin: 0 10px;
+    max-width: 450px;
+
+    .pasus {
+        text-align: left;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
     }
 }
 
