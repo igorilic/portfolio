@@ -10,10 +10,26 @@
     function dataservice($http, $q, exception, logger) {
         var service = {
             getPics: getPics,
-            getMessageCount: getMessageCount
+            getMessageCount: getMessageCount,
+            //getPerspic: getPerspic
         };
 
         return service;
+
+        //function getPerspic() {
+        //    return $http.get('/api/perspic')
+        //        .then(success)
+        //        .catch(fail);
+        //
+        //    function success(response) {
+        //        return response.data;
+        //    }
+        //
+        //    function fail(e) {
+        //        return exception
+        //            .catcher('XHR failed for getting perspic')(e);
+        //    }
+        //}
 
         function getMessageCount() { return $q.when(72); }
 

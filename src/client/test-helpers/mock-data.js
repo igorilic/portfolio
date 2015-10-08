@@ -2,8 +2,12 @@
 var mockData = (function() {
     return {
         getMockPics: getMockPics,
-        getMockStates: getMockStates
+        getMockStates: getMockStates,
+        //getPerspic: getPerspic
     };
+    //function getPerspic() {
+    //    return 'http://lorempixel.com/400/500/people';
+    //}
 
     function getMockStates() {
         return [

@@ -9,6 +9,7 @@
     function AboutController($q, logger) {
         var vm = this;
 
+        vm.perspic = 'http://lorempixel.com/400/500/people';
         vm.title = 'About';
 
         activate();
@@ -19,5 +20,12 @@
                 logger.info('Activated About View');
             });
         }
+
+        //function getPerspic() {
+        //    return dataservice.getPerspic().then(function(data) {
+        //        vm.perspic = data;
+        //        return vm.perspic;
+        //    });
+        //}
     }
 })();

@@ -14,6 +14,12 @@
     <file url="file://$PROJECT_DIR$/src/client/app/about/about.routes.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/about/about.routes.spec.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/app.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.controller.spec.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.route.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/client/app/contact/contact.route.spec.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/core/dataservice.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/dashboard/dashboard.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/client/app/home/home.controller.js" charset="UTF-8" />

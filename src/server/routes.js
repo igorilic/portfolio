@@ -3,12 +3,17 @@ var four0four = require('./utils/404')();
 var data = require('./data');
 
 router.get('/pics', getPics);
+//router.get('/perspic', getPerspic);
 router.get('/pics/:id', getImage);
 router.get('/*', four0four.notFoundMiddleware);
 
 module.exports = router;
 
 //////////////
+
+function getPerspic(req, res, next) {
+    res.status(200).send(data.perspic);
+}
 
 function getPics(req, res, next) {
     res.status(200).send(data.pics);

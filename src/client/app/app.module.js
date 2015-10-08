@@ -6,7 +6,8 @@
         'app.widgets',
         'app.layout',
         'app.home',
-        'app.about'
+        'app.about',
+        'app.contact'
     ]);
 
 })();

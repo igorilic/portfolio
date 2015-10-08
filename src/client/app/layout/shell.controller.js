@@ -9,6 +9,7 @@
     /* @ngInject */
     function ShellController($rootScope, $timeout, config, logger) {
         var vm = this;
+        var tweet = 'http://twitter.com/';
         vm.busyMessage = 'Please wait ...';
         vm.isBusy = true;
         $rootScope.showSplash = true;
@@ -16,6 +17,10 @@
             title: config.appTitle,
             text: 'Created by Igor Ilic',
             link: 'http://twitter.com/igordilic'
+        };
+
+        vm.twitter = {
+            igor: tweet + 'igordilic'
         };
 
         activate();

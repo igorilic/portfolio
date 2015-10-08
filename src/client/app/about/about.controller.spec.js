@@ -1,6 +1,7 @@
 /* jshint -W117, -W030 */
 describe('AboutController', function() {
     var controller;
+    //var perspic = mockData.getPerspic();
 
     beforeEach(function() {
         bard.appModule('app.about');
@@ -12,9 +13,9 @@ describe('AboutController', function() {
         $rootScope.$apply();
     });
 
-    bard.verifyNoOutstandingHttpRequests();
+    //bard.verifyNoOutstandingHttpRequests();
 
-    describe('Home controller', function() {
+    describe('About controller', function() {
         it('should be created successfully', function () {
             expect(controller).to.be.defined;
         });
