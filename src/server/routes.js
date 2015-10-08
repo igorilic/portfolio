@@ -8,7 +8,6 @@ router.get('/pics/:id', getImage);
 router.get('/*', four0four.notFoundMiddleware);
 
 module.exports = router;
-
 //////////////
 
 function getPerspic(req, res, next) {
@@ -31,3 +30,4 @@ function getImage(req, res, next) {
         four0four.send404(req, res, 'person ' + id + ' not found');
     }
 }
+

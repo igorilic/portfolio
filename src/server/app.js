@@ -6,8 +6,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
-var port = process.env.PORT || 8001;
+var port = process.env.PORT || 3000;
 var four0four = require('./utils/404')();
+var mongoose = require('./config/mongoose');
 
 var environment = process.env.NODE_ENV;
 
@@ -16,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
-app.use('/api', require('./routes'));
+//app.use('/api', require('./routes'));
 
 console.log('About to crank up node');
 console.log('PORT=' + port);
@@ -35,6 +36,7 @@ switch (environment){
         break;
     default:
         console.log('** DEV **');
+        //require('./api.routes')(app);
         app.use(express.static('./src/client/'));
         app.use(express.static('./'));
         app.use(express.static('./tmp'));
@@ -47,6 +49,7 @@ switch (environment){
         break;
 }
 
+var db = mongoose();
 app.listen(port, function() {
     console.log('Express server listening on port ' + port);
     console.log('env = ' + app.get('env') +
