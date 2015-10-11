@@ -7,7 +7,8 @@
         'app.layout',
         'app.home',
         'app.about',
-        'app.contact'
+        'app.contact',
+        'app.admin'
     ]);
 
 })();

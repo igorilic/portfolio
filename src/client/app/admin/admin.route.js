@@ -22,8 +22,33 @@
                     controllerAs: 'vm',
                     title: 'Admin',
                     settings: {
-                        nav: 2,
-                        content: '<i class="fa fa-lock"></i> Admin'
+
+                    }
+                }
+            },
+            {
+                state: 'admin.upload',
+                config: {
+                    url: '/admin/upload',
+                    templateUrl: 'app/admin/upload/upload.html',
+                    controller: 'UploadController',
+                    controllerAs: 'vm',
+                    title: 'Upload Pics',
+                    settings: {
+
+                    }
+                }
+            },
+            {
+                state: 'admin.edit',
+                config: {
+                    url: '/admin/edit',
+                    templateUrl: 'app/admin/edit/edit.html',
+                    controller: 'EditController',
+                    controllerAs: 'vm',
+                    title: 'Edit Albums',
+                    settings: {
+
                     }
                 }
             }

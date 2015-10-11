@@ -201,3 +201,27 @@ footer a {
 .contact-social li a {
   text-decoration: none;
 }
+/**
+* admin
+*/
+#sidebar-wrapper {
+  width: 250px;
+  display: block;
+}
+#sidebar-wrapper ul {
+  list-style-type: none;
+}
+#sidebar-wrapper ul .sidebar-brand {
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+#sidebar-wrapper ul li {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+#sidebar-wrapper ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}

@@ -1,16 +1,17 @@
+<section id="sidebar-wrapper">
+    <!--<div ng-include="'app/layout/sidebar.html'"></div>-->
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand"><a href="#">Admin Panel</a></li>
+        <li><a ui-sref="admin.upload">Upload Pics</a> <i class="fa fa-caret"></i></li>
+        <li><a ui-sref="admin.edit">Edit Albums</a></li>
+    </ul>
+</section>
+
 <section class="mainbar">
     <section class="matter">
         <div class="container">
             <div class="row">
-                <div class="widget wviolet">
-                    <div ht-widget-header title="{{vm.title}}"></div>
-                    <div class="widget-content user">
-                        <h3>TODO: Implement Your Features</h3>
-                    </div>
-                    <div class="widget-foot">
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
+                <div ui-view class="shuffle-animation"></div>
             </div>
         </div>
     </section>

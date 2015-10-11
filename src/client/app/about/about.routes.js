@@ -22,7 +22,7 @@
                     controllerAs: 'vm',
                     title: 'about',
                     settings: {
-                        nav: 2,
+                        nav: -1,
                         content: '<i class="fa fa-dashboard"></i> About'
                     }
                 }
