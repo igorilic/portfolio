@@ -42,5 +42,6 @@
     <file url="file://$PROJECT_DIR$/src/server/data.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/server/models/album.model.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/server/routes.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -22,7 +22,7 @@
 
     >Refer to these [instructions on how to not require sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
 
-## Running HotTowel
+## Running 
 
 ### Linting
  - Run code analysis using `gulp vet`. This runs jshint, jscs, and plato.
@@ -262,6 +262,20 @@ The `blocks.router` module contains a routing helper module that assists in addi
     --type=major
     --type=pre
     --ver=1.2.3 // specific version
+    
+## Portfolio API
+
+|   URL       		| HTTP verb | POST body |       result       		|
+|-------------------|-----------|-----------|---------------------------|
+| /api/albums 		| GET       | none      | Returns all albums 		|
+| /api/albums 		| POST      | JSON      | New Album          		|
+| /api/albums/:id	| GET		| none		| Returns single album 		|
+| /api/albums/:id	| PUT		| JSON		| Updates an existing album |
+| /api/albums/:id	| DELETE	| JSON		| Deletes existing album 	|
+| /api/images/		| POST		| JSON		| New Image			 		|
+| /api/images/:id	| GET		| none		| Returns single image		|
+| /api/images/:id	| PUT		| JSON		| Update an existing image	|
+| /api/images/:id	| DELETE	| none		| Deletes existing image	|
 
 ## License
 
