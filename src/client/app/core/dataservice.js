@@ -34,7 +34,7 @@
         function getMessageCount() { return $q.when(72); }
 
         function getPics() {
-            return $http.get('/api/pics')
+            return $http.get('/api/albums/')
                 .then(success)
                 .catch(fail);
 

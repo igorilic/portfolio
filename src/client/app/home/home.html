@@ -1,17 +1,32 @@
-<div class="container text-center">
+<!--<div class="container text-center">
     <div class="row">
         <div infinite-scroll="vm.loadMore()" infinite-scroll-distance="1">
-            <div class="outer-box" data-ng-repeat="pic in vm.pics track by $index">
+            <div class="outer-box" data-ng-repeat="album in vm.albums track by $index">
                 <a ng-click="vm.openLightboxModal($index)">
-                    <img ng-src="{{pic.thumbUrl}}" alt=""/>
+                    <img ng-src="{{album.pics[0].url}}" alt=""/>
                     <div class="inner-box">
                     </div>
                 </a>
                 <div>
-                    <h3 class="pic-title">{{ pic.title }}</h3>
-                    <p class="pic-caption">{{ pic.id }} {{ pic.caption }}</p>
+                    <h3 class="pic-title">{{ album.title }}</h3>
+                    <p class="pic-caption">{{ album.id }} {{ album.desc }}</p>
                 </div>
             </div>
         </div>
+    </div>
+</div>-->
+
+<div class="container text-center">
+    <div class="row">
+           <div class="outer-box" data-ng-repeat="album in vm.albums">
+                <div>
+                    <img ng-src="{{album.pics[0].url}}" alt=""/>
+                </div>                 
+                <div>
+                    <h3 class="pic-title">{{ album.title }}</h3>
+                    <p class="pic-caption">{{ album.id }} {{ album.desc }}</p>
+                </div>
+            </div>
+       
     </div>
 </div>
