@@ -7,6 +7,10 @@
 
 	apiService.$inject = ['$resource'];
 	function apiService($resource) {
-		return $resource('/api/albums/:albumID');
+		return $resource('/api/albums/:id/ ', {id: '@_id'}, {
+			update: {
+				method: 'PUT'
+			}
+		});
 	}
 })();

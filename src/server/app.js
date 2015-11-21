@@ -53,8 +53,9 @@ app.use(passport.session());
 /**
  * Static
  */
-app.use(express.static('./src/client/'));
-app.use(express.static('./'));
+app.use(express.static('./src/client'));
+app.use(express.static('./src/data'));
+app.use(express.static('.'));
 app.use(express.static('./tmp'));
 app.use('/*', express.static('./src/client/index.html'));
 
@@ -64,8 +65,9 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 // routes
-app.use('/user/', userRoutes);
 app.use('/api', apiRoutes);
+app.use('/user/', userRoutes);
+
 /**
  * 404
  */
