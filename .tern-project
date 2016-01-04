@@ -1,0 +1,16 @@
+{
+   "libs": [
+       "browser",
+       "jquery",
+       "ecma5",
+       "underscore"
+   ],
+   "plugins": {
+       "complete_strings": {},
+       "angular": "./",
+       "node": {},
+       "lint": {},
+       "modules": {},
+       "node-express": {}
+   }
+}

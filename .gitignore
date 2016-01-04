@@ -5,3 +5,10 @@ node_modules/
 
 # other
 .idea/
+=
+resize-pane
+-
+
+# backup files
+*.*~
+
